@@ -56,11 +56,13 @@ print("({:.2f} + {:.2f} + {:.2f} + {:.2f})/4 = {:.2f}/4 = {:.2f}".format(n[0], n
                                                                        n[0]+n[1]+n[2]+n[3],
                                                                        q)) """
 
-#30
+""" #30
 val_br = float(input("Digite um valor monetário em reais: "))
 cot_us = float(input("Digite a cotação atual do dólar: "))
 val_us = val_br*cot_us
 data_atual = date.today()
-print("R${:.2f} = US${:.2f} ({})".format(val_br, val_us, data_atual.strftime("%d/%m/%Y")))
+print("R${:.2f} = US${:.2f} ({})".format(val_br, val_us, data_atual.strftime("%d/%m/%Y"))) """
+
+
 
 
